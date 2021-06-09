@@ -1,0 +1,308 @@
+# Page settings
+
+baseURL = "https://kaiyuanzheng.com/"
+languageCode = "en"
+title = "郑凯元简历"
+theme = "hugo-devresume-theme"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "郑凯元"
+        tagline = "投资总监"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Shanghai"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "178 2060 0504"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "ky_zheng@yeah.net"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.kaiyuanzheng.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Bloomberg/Wind"
+        [[params.skills.list.items]]
+        details = "Microsoft Office"
+        [[params.skills.list.items]]
+        details = "Photoshop"
+        [[params.skills.list.items]]
+        details = "Matlab"
+        [[params.skills.list.items]]
+        details = "ERP"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "熟练地掌握并运用英文"
+        [[params.skills.list.items]]
+        details = "有责任心、抗压能力强"
+        [[params.skills.list.items]]
+        details = "有效快速地解决问题"
+        [[params.skills.list.items]]
+        details = "投资有浓厚兴趣和见解"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc 国际金融"
+        university = "格拉斯哥大学"
+        dates = "2017 - 2018"
+        [[params.education.list]]
+        degree = "BSc 量化金融"
+        university = "达尔豪斯大学"
+        dates = "2011 - 2015"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "院长嘉许名单"
+        body = "Dean's List Dalhousie"
+        date = "2015"        
+	[[params.awards.list]]
+        name = "大学奖学金"
+        body = "Dalhousie Entrance Scholarship"
+        date = "2012"
+
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "中文"
+        level = "Native"
+        [[params.languages.list]]
+        name = "英语"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "看书"
+        [[params.interests.list]]
+        name = "音乐"
+        [[params.interests.list]]
+        name = "编程"
+        [[params.interests.list]]
+        name = "摄影"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "从业背景: 2年金融机构投资部工作，熟悉股权投资，地产基金，产业投资，与多家机构保持合作。  | 能力结构: 具备项目尽职调查、股权交割、投后管理、项目路演、商务谈判等能力，熟练掌握金融知识和业务流程。  |   学历背景: 本科(top250)、硕士(top50)就读于国际一流重点大学;量化金融、财务和国际金融复合背景符合金融行业需求。  |   综合素质: 8年海外工作学习经历，对北美与欧洲金融市场了解深刻，能熟练地掌握并运用英文，有责任心，抗压能力强，对投资管理有浓厚兴趣。"
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "投资总监"
+        dates = "2019.08 - 至今"
+        company = "宁波民营科技投资有限公司"
+        details = "负责公司项目的拓展、挖掘,、统筹信息并分析管理;探索融资合作新方式。"
+        [[params.experience.list.items]]
+        details = "产品设计:负责投资项目的挖掘、前期市场调研、行业分析、明确合作企业的需求;设计“明股实债”、“资产证券化ABS”等结构，与机构洽谈合作模式，商定利润分配方案，达成合作，目前设计产品结构 10+;包括私募股权投资基金、资产配置类基金等。"
+        [[params.experience.list.items]]
+        details = "项目维护:参与跨地区合作的股权投资维护及相关业务，包括股权投资业务的寻源跟踪、筛选、尽职调查、投后管理、投资退出等，形成完整的投资报告和尽职调查，已参与项目维护 25+。"
+        [[params.experience.list.items]]
+        details = "市场分析:关注国内外金融市场及监管政策动态，调研市场需求，为产品策略制定提供决策依据及意见。"
+	[[params.experience.list.items]]
+	details = "项目扩展:通过参与同业活动、路演、校友会、讲座与合作机构建立联系。"	
+
+
+        [[params.experience.list]]
+        title = "产品总监"
+        dates = "2019.01 — 2019.08"
+        company = "深圳民投控股有限公司"
+        details = "负责私募基金产品设计及日常运作管理。"
+        [[params.experience.list.items]]
+        details = "负责私募基金、资管、信托类产品设计、撰写项目分析研究报，审核并优化报告 10+。"
+        [[params.experience.list.items]]
+        details = "负责基金产品日常运作管理、投资监控、信息披露及相关协调等工作。"
+        [[params.experience.list.items]]
+        details = "与内外部资金渠道、金融机构进行业务联系，维护业务合作渠道。"
+        [[params.experience.list.items]]
+        details = "开发与创新基金产品，推动业务增长性，成功参与及维护公司地产基金项目“绿城·安吉桃花源”、金华浦江绿城玫瑰园&君澜度假酒店”。"
+
+
+        [[params.experience.list]]
+        title = "金融助理"
+        dates = "2014.04 — 2014.08"
+        company = "Manulife Financial (宏利金融)"
+        details = "实习：	协助财务主管的日常工作。"
+        [[params.experience.list.items]]
+        details = "｜ 协助准备每月财务报表。 ｜ 协助准备部门财务报表。 ｜ 协助各部门之间的合作与外部通信。"
+
+
+
+        [[params.experience.list]]
+        title = "审计助理"
+        dates = "2013.09 — 2014.02"
+        company = "Uomo Retail Store"
+        details = "实习：	协助正装连锁店会计主管的日常工作。"
+        [[params.experience.list.items]]
+        details = "｜ 协助核对交易信息与金融数据并带入会计系统。 ｜ 协助准备与分析每月预付款项; 确保采购订单，收据，和发票配对。 ｜ BP 制作，参与 Uomo Retail Store 募资项目的前期调研，收集相关数据、资料，整理募集资金条款，完成募集说明书。"
+
+
+        [[params.experience.list]]
+        title = "财会助理"
+        dates = "2012.12 — 2013.06"
+        company = "Recardo's Glossary & Fast Food"
+        details = "实习：	协助实施杂货食品店的运营策略。"
+        [[params.experience.list.items]]
+        details = "｜ 准备每个月的财务报表、维护公司订单，通过与唐人街大型超市供应商签订3年长期购货协议，成功地将公司进口食材成本降低 10%。 ｜ 计算税务、分析公司财务报表、收取坏账; 计算员工工资并且按周期按时发放。"
+
+
+	
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "甬民投项目示例"
+        meta = "甬民投"
+        tagline = "股权项目：“ 驴妈妈旅游“、“蔚来汽车”、“XEV 汽车“、“优必选”; ｜ 地产项目：“中粮碧桂园领域”、“浦江绿城玫瑰园”。 ｜ 产业园投资运营项目：“滨州华盛纺织科技产业园”等。"
+	
+
+        [[params.projects.list]]
+        title = "深民投项目示例"
+        meta = "深民投"
+        tagline = "地产项目：“绿城·安吉桃花源”、“杭州蓝城桃李春风”、“金华浦江绿城玫瑰园&君澜度假酒店”等。"
+ 
+
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "论文"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/ampmyun"
+        title = "AmPmYun"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//kaiyuanzheng.com/简历_郑凯元.pdf"
+        title = "简历下载"
+
+
+
+
