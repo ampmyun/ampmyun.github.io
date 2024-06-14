@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://kaiyuanzheng.com/"
+baseURL = "https://z-ky.com/"
 languageCode = "en"
 title = "郑凯元简历"
 theme = "hugo-devresume-theme"
@@ -48,7 +48,7 @@ theme = "hugo-devresume-theme"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
-        text = "www.kaiyuanzheng.com"
+        text = "z-ky.com"
 
 
 
@@ -300,7 +300,7 @@ theme = "hugo-devresume-theme"
         title = "AmPmYun"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//kaiyuanzheng.com/简历_郑凯元.pdf"
+        url = "//z-ky.com/简历_郑凯元.pdf"
         title = "简历下载"
 
 
